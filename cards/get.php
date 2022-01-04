@@ -12,7 +12,7 @@ function getCards()
         $response = array(
             'ok' => true,
             'status' => 200,
-            'message' => 'Added successfully.',
+            'message' => 'Transaction successful.',
             'data' => $responseData
         );
     } else {
@@ -40,7 +40,7 @@ function getCard($id = 0)
         $response = array(
             'ok' => true,
             'status' => 200,
-            'message' => 'Added successfully.',
+            'message' => 'Transaction successful.',
             'data' => $responseData
         );
     } else {
@@ -72,7 +72,7 @@ function getCardByLessonId($lesson_id = 0)
         $response = array(
             'ok' => true,
             'status' => 200,
-            'message' => 'Added successfully.',
+            'message' => 'Transaction successful.',
             'data' => $responseData
         );
     } else {
